@@ -1,0 +1,40 @@
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navigationpanel {
+    height: 30px;
+    background-color: #1F2937;
+}
+
+.introduction {
+    height: 200px;
+    background-color: #1F2937;
+}
+
+.information {
+    height: 200px;
+}
+
+.testemonials {
+    height: 200px;
+    background-color: #E5E7EB;
+    padding: 80px;
+}
+
+.quote {
+    font-style: italic;
+}
+
+.callsection {
+    height: 200px;
+}
+
+footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
