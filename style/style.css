@@ -14,10 +14,32 @@ body {
     background-color: #1F2937;
 }
 
+/** Manual fold: .information, .infowrapper, .infobox, #image **/
 .information {
-    height: 200px;
+    padding: 60px;
 }
 
+.infowrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.infobox {
+    width: 300px;
+}
+
+#image {
+    width: 300px;
+    height: 240px;
+    object-fit:cover;
+    overflow: hidden;
+    background-color: red;
+}
+
+
+/** Manual fold: .testemonials, .featuredquote, .quote, .quoter **/
 .testemonials {
     background-color: #E5E7EB;
     padding: 80px;
@@ -33,7 +55,6 @@ body {
 
 .quote {
     font-style: italic;
-    max-width: 400px;
     text-align: center;
 }
 
@@ -41,6 +62,7 @@ body {
     text-align: right;
     font-weight: 700;
 }
+
 
 .callsection {
     height: 200px;
