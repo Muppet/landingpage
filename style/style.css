@@ -19,13 +19,27 @@ body {
 }
 
 .testemonials {
-    height: 200px;
     background-color: #E5E7EB;
     padding: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.featuredquote {
+    max-width: 400px;
+    
 }
 
 .quote {
     font-style: italic;
+    max-width: 400px;
+    text-align: center;
+}
+
+.quoter {
+    text-align: right;
+    font-weight: 700;
 }
 
 .callsection {
