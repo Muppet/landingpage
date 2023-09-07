@@ -4,17 +4,79 @@ body {
     flex-direction: column;
 }
 
+/** Manual Fold: .navigationpanel, .headerlogo, .headerlinkwrapper, #headerlink **/
 .navigationpanel {
-    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: #1F2937;
+    padding: 15px;
+}
+
+.headerlogo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin: 0px;
+}
+
+.headerlinkwrapper {
+    display: flex;
+    gap: 20px;
+}
+
+#headerlink {
+    text-decoration: none;
+}
+
+#headerlink:hover {
+    font-style: italic;
 }
 
 .introduction {
-    height: 200px;
+    padding: 80px;
+    gap: 20px;
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
     background-color: #1F2937;
 }
 
-/** Manual fold: h2, .information, .infowrapper, .infobox, #image **/
+.introtext {
+    width: 500px;
+}
+
+.herotext {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.herosubtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+#firstbutton {
+    background: #3882F6;
+    border: none;
+}
+
+#firstbutton:hover {
+    background-color: #F9FAF8;
+    color: #3882F6;
+}
+
+#introimage {
+    border: 3px solid #1F2937;
+    border-radius: 15px;
+    width: 400px;
+    height: 240px;
+    object-fit:cover;
+    overflow: hidden;
+    background-color: red;
+}
+
+/** Manual fold: .information, .infowrapper, .infobox, #image **/
 .information {
     text-align: center;
 }
@@ -66,7 +128,7 @@ body {
     font-weight: 700;
 }
 
-
+/** Manual Fold: .callsection, .bluebox, .bluetext, .button, .button:hover **/
 .callsection {
     padding: 80px;
     padding-left: 120px;
@@ -92,7 +154,7 @@ body {
 }
 
 .button {
-    border-radius: 10px;
+    border-radius: 5px;
     border: 2px solid #F9FAF8;
     background: transparent;
     text-decoration: none;
@@ -111,7 +173,5 @@ body {
 
 footer {
     background-color: #1F2937;
-    color: white;
     text-align: center;
-    padding: 10px;
 }
